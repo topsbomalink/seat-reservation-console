@@ -4,10 +4,8 @@ import java.util.*;
 
 public class Reservation {
     private static Map<String, Person> seatAllocationMap = new HashMap<>();
-
     public static void main(String[] args) {
         List<String> seats = getSeats();
-
         while (true) {
             System.out.println("Make seat reservation by inputting in the format below: ");
             System.out.println("SeatNumber::FullName::Age, Sample A2::ade ojo::20");
